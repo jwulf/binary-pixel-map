@@ -1,5 +1,5 @@
 {
-  "name": "binary-pixel-map",
+  "name": "@sitapati/binary-pixel-map",
   "version": "1.2.1",
   "description": "A library for creating and editing a binary 2D pixel map",
   "main": "lib/index.js",
@@ -16,7 +16,7 @@
     "prepublishOnly": "yarn run clean && yarn run build"
   },
   "dependencies": {
-    "sharp": "^0.21.0"
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.6",
